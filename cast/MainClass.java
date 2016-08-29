@@ -8,7 +8,7 @@ public class MainClass {
 		Mammal m3 = new Mammal();
 		System.out.println(m1.getClass().getName());
 		System.out.println(m2.getClass().getName());
-		System.out.println(m3.getClass().getName());
+		//System.out.println(m3.getClass().getName());
 		if ( m2 instanceof Cat) {
            Cat c = (Cat)m2;
 		} else {
